@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Formulir Pendaftaran Maba</title>
+  </head>
+  <nav class="navbar navbar-light bg-green-700 shadow navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand text-light fw-bold" href="#">
+            <img src="/asset/almuslim.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+            Universitas Almuslim
+        </a>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="/formulir/formulir.html">Pendaftaran</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-light" href="#footer">Footer</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+</body>
+    </div>
+</nav>
+  <body style="background-color: rgb(21, 78, 54);">
+    <div class="container">
+        <h4 class="alert bg-light text-center text-success mt-3">FORMULIR PENDAFTARAN MAHASISWA BARU  TAHUN AKADEMIK 2024/2025</h4>
+        <form>
+            <!-- Data Mahasiswa-->
+            <p class="lead fw-bold text-light mt-2 mb-2"> 1. Data Pribadi Calon Mahasiswa Baru</p>
+            
+            <div class="form-group">
+                <label class="text-light mt-1">Nama Lengkap</label>
+                <input type="text" name="" class="form-control" placeholder="Masukkan Nama Lengkap Anda">
+            </div>
+
+            <div class="form-group">
+                <label class="text-light mt-2">NIK (No.KTP)</label>
+                <input type="text" name="" class="form-control" placeholder="Masukkan No NIK Anda !">
+            </div>
+
+            <div class="form-group">
+                <label class="text-light mt-2">Suku/Kebangsaan</label>
+                <input type="text" name="" class="form-control" placeholder="Masukkan Suku/Kebangsaan Anda">
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label  for="Tempatlahir" class="text-light mt-2">Tempat Lahir</label>
+                        <input type="text" class="form-control" placeholder="Masukkan Tempat Lahir Anda" id="Tempatlahir">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="text-light mt-2">Tanggal Lahir</label>
+                        <input type="date" name="" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </form>
+          <div class="form-group">
+            <label class="text-light mt-2">Agama</label>
+            <input type="text" name="" class="form-control" placeholder="Masukkan Agama Anda">
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label  for="Tempatlahir" class="text-light mt-2">Tinggi Badan </label>
+                    <input type="number" class="form-control" placeholder="diisi oleh panitia">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="text-light mt-2">Berat Badan</label>
+                    <input type="number" name="" class="form-control" placeholder="diisi oleh panitia">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-check mt-2">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label text-light" for="flexCheckDefault">
+              Laki-Laki
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label text-light" for="flexCheckChecked">
+              Perempuan
+            </label>
+          </div>
+
+          <!-- Alamat Mahasiswa-->
+          <div class="container2">
+            <p class="lead fw-bold text-light mt-2 mb-2"> 2. Alamat Calon Mahasiswa</p>
+            
+            <form class="row g-3 text-light">
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Jalan</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+
+                <div class="col- 12 md-4" >
+                    <label for="inputState" class="form-label">Dusun</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="">
+                    <select id="inputState" class="form-select mt-2">
+                      <option selected>Pilih</option>
+                      <option>RT</option>
+                      <option>RW</option>
+                    </select>
+                  </div>
+
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Kelurahan</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="">
+                </div>
+
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Kode Pos</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="12345">
+                  </div>
+
+                  <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Kecamatan</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="text-light mt-2">No.Telepon</label>
+                    <input type="text" name="" class="form-control" placeholder="">
+                </div>
+              
+                <div class="col-12">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Kami tidak pernah membagikan email anda kepada orang lain. !              
+                  </div>
+                
+
+                <div class="col-12">
+                  <label for="inputState" class="form-label">Status Perkawinan</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Pilih</option>
+                    <option>Kawin</option>
+                    <option>Belum</option>
+                  </select>
+
+                  <!-- Pendidikan Terakhir -->
+                  <div class="container3">
+                    <p class="lead fw-bold text-light mt-2 mb-2"> 3. Pendidikan Terakhir</p> <h6>SMA/SMK/MA/SLTA Lainnya/D.I/D.II/D.III/SI</h6>
+                    <div class="mb-3">
+                      <label for="formGroupExampleInput" class="form-label">NISN</label>
+                      <input type="number" class="form-control" name="number" placeholder="Masukkan NISN Anda">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="formGroupExampleInput2" class="form-label">Nama Sekolah</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                    </div>
+
+                      <div class="col-12">
+                        <label for="inputState" class="form-label">Jurusan</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Pilihan</option>
+                          <option>IPA</option>
+                          <option>IPS</option>
+                          <option>PAI</option>
+                          <option>Bahasa</option>
+                          <option>Pelayaran</option>
+                          <option>Farmasi</option>
+                          <option>Keperawatan</option>
+                          <option>Akuntansi</option>
+                          <option>Administrasi Perkantoran</option>
+                          <option>Tata Boga</option>
+                          <option>Tata Busana</option>
+                          <option>Teknik Komputer Jaringan (TKJ)</option>
+                          <option>Teknik Pengelasan (TLAS)</option>
+                          <option>Teknik Permesinan (TPM)</option>
+                          <option>Teknik Instalasi Tenaga Listrik (TITL)</option>
+                          <option>Teknik Sepeda Motor (TSM)</option>
+                          <option>Desain Grafis / Multimedia</option>
+                          <option>Teknik Kontruksi Dan Perumahan (TKP)</option>
+                          <option>Teknik Kendaraan Ringan (TKR)</option>
+                          <option>Desain Pemodelan Dan Informasi Bangunan (DPIB)</option>
+                          <option>IPA</option>
+                        </select>
+                    </div>
+
+                    <div class=" col-12 mb-3">
+                      <label for="formGroupExampleInput2" class="form-label mt-2">No. Ijazah</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                      <label for="formGroupExampleInput2" class="form-label">Tempat dikeluarkan Ijazah</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                    </div>
+                     <div class="mb-3">
+                      <label for="formGroupExampleInput2" class="form-label">Tgl. Dan Tahun Ijazah</label>
+                      <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="">
+                    </div>
+                </div>
+                </div>
+              </form>
+
+              <!-- Identitas orang Tua -->
+              <div class="container2">
+                <p class="lead fw-bold text-light mt-2 mb-2"> 4. Identitas Orang Tua/Wali</p>
+                <div class="form-group">
+                  <label class="text-light mt-1">Nama Ayah</label>
+                  <input type="text" name="" class="form-control" placeholder="Masukkan Nama Lengkap Ayah">
+              </div>
+              <div class="form-check mt-2">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Masih Hidup
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Almarhum
+
+                </label>
+              </div>
+  
+              <div class="form-group">
+                  <label class="text-light mt-2">NIK (No.KTP)</label>
+                  <input type="text" name="" class="form-control" placeholder="Masukkan No NIK !">
+                  <p class=" text-light mt-2 mb-2">Hubungan dengan Ayah</p>
+
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">Ayah Kandung</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">Ayah Tiri</label>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label  for="Tempatlahir" class="text-light mt-2">Tempat Lahir</label>
+                        <input type="text" class="form-control" placeholder="Masukkan Tempat Lahir" id="Tempatlahir">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="text-light mt-2">Tanggal Lahir</label>
+                        <input type="date" name="" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="text-light mt-1">Pekerjaan</label>
+                  <input type="text" name="" class="form-control" placeholder="">
+              </div>
+
+                <div class="form-group">
+                  <label class="text-light mt-2">Alamat Rumah</label>
+                  <input type="text" name="" class="form-control" placeholder="">
+                  <label class="text-light mt-2">No. hp</label>
+                  <input type="text" name="" class="form-control" placeholder="">
+              </div>
+
+              <div class="form-group">
+                <label class="text-light mt-2">Alamat Kantor</label>
+                <input type="text" name="" class="form-control" placeholder="">
+                <label class="text-light mt-2">No. Telepon</label>
+                <input type="text" name="" class="form-control" placeholder="">
+            </div>
+
+<!-- Nama ibu -->
+            <div class="form-group">
+              <label class="text-light mt-1">Nama Ibu</label>
+              <input type="text" name="" class="form-control" placeholder="Masukkan Nama Lengkap Ibu">
+              
+              <div class="form-check form-check-inline mt-2">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Masih Hidup</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Almarhum</label>
+              </div>
+              <div class="form-group">
+                <label class="text-light mt-2">NIK (No.KTP)</label>
+                <input type="text" name="" class="form-control" placeholder="Masukkan No NIK !">
+                <p class=" text-light mt-3 mb-1">Hubungan dengan Ibu</p>
+
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">Ibu Kandung</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                  <label class="form-check-label" for="inlineCheckbox2">Ibu Tiri</label>
+                </div>
+
+                <div class="form-group">
+                  <label class="text-light mt-1">Pekerjaan</label>
+                  <input type="text" name="" class="form-control" placeholder="">
+              </div>
+          </div>
+          <p class="lead fw-bold text-light mt-3 mb-2"> 5. Prestasi Yang Pernah Diraih</p>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+             Tingkat Kecamatan
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+             Tingkat Kabupaten
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+             Tingkat Provinsi
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+             Tingkat Nasional
+            </label>
+          </div>
+          
+
+              <div class="form-group">
+                  <input type="text" name="" class="form-control" placeholder="Masukkan Prestasi Anda">
+              </div>
+
+             <!-- 6 -->
+            <p class="lead fw-bold text-light mt-2 mb-2">6. Fakultas dan Program Studi yang dipilih</p>
+            <div class="mb-3">
+            <p class="fw-bold text-light mt-2 mb-2">Pilihan Fakultas</p>
+            <select class="form-select" id="fakultas" required aria-label="select example">
+                  <option value="">Pilih Fakultas</option>
+                  <option value="1">1. Fakultas Pertanian (FP)</option>
+                  <option value="2">2. Fakultas Keguruan dan Ilmu Pendidikan (FKIP)</option>
+                  <option value="3">3. Fakultas Teknik (FT)</option>
+                  <option value="4">4. Fakultas Ilmu Sosial dan Ilmu Politik (FISIP)</option>
+                  <option value="5">5. Fakultas Ekonomi (FE)</option>
+                  <option value="6">6. Fakultas Ilmu Komputer (FIKOM)</option>
+                  <option value="7">7. Fakultas Kesehatan (FK)</option>
+                  <option value="8">8. Pascasarjana</option>
+                 <option value="9">9. Pendidikan Profesi Guru (Profesi) Akreditasi B</option>
+           </select>
+         </div>
+
+<div class="mb-3">
+    <p class="fw-bold text-light mt-2 mb-2">Program Studi</p>
+    <select class="form-select" id="program_studi" required aria-label="select example">
+        <option value="">Pilihan Jurusan</option>
+        <option value="1">1. Agroteknologi (SI) Akreditasi B (FP)</option>
+        <option value="2">2. Peternakan (SI) Akreditasi B (FP)</option>
+        <option value="3">3. Agribisnis (SI) Akreditasi B (FP)</option>
+        <option value="4">4. Akuakultur (SI) Akreditasi B (FP)</option>
+        <option value="5">5. Kehutanan (SI) Akreditasi B (FP)</option>
+        <option value="6">6. Teknologi Industri Pertanian (SI) Akreditasi B (FP)</option>
+        <option value="7">7. Pendidikan Matematika (SI) Akreditasi B (FKIP)</option>
+        <option value="8">8. Pendidikan Biologi (SI) Akreditasi B (FKIP)</option>
+        <option value="9">9. Pendidikan Fisika (SI) Akreditasi B (FKIP)</option>
+        <option value="10">10. pendidikan Bhs. Indonesia (SI) Akreditasi B (FKIP)</option>
+        <option value="11">11. Pendidikan Ekonomi (SI) Akreditasi B (FKIP)</option>
+        <option value="12">12. Pendidikan Geografi (SI) Akreditasi Baik Sekali (FKIP)</option>
+        <option value="13">13. pendidikan Bhs. Inggris (SI) Akreditasi B (FKIP)</option>
+        <option value="14">14. PGSD (SI) Akreditasi A (FKIP)</option>
+        <option value="15">15. PG PAUD (SI) Akreditasi Baik Sekali (FKIP)</option>
+        <option value="16">16. Teknik Sipil (SI) Akreditasi B (FT)</option>
+        <option value="17">17. Arsitektur (SI) Akreditasi Baik (FT)</option>
+        <option value="18">18. Ilmu Lingkungan (SI) Akreditasi Baik (FT)</option>
+        <option value="19">19. Administrasi Bisnis (SI) Akreditasi B (FISIP)</option>
+        <option value="20">20. Administrasi Publik (SI) Akreditasi B (FISIP)</option>
+        <option value="21">21. Ilmu Hubungan Internasional (SI) Akreditasi B (FISIP)</option>
+        <option value="22">22. Ekonomi Pembangunan (SI) Akreditasi B (FE)</option>
+        <option value="23">23. Manajemen Ritel (SI) Akreditasi Baik (FE)</option>
+        <option value="24">24. Informatika (SI) Akreditasi B (FIKOM)</option>
+        <option value="25">25. Informatika Medis (SI) Akreditasi Baik (FIKOM)</option>
+        <option value="26">26. Kebidanan (SI) Akreditasi Baik (FK) </option>
+        <option value="27">27. Pendidikan Profesi Bidan (Profesi) Akreditasi Baik (FK)</option>
+        <option value="28">28. Kebidanan (DIII) Akreditasi B (FK)</option>
+        <option value="29">29. Pengelolaan Sumberdaya Alam dan Lingkungan (S2) Akreditasi Baik </option>
+        <option value="30">30. Pendidikan Ilmu Pengetahuan Sosial (S2) Akreditasi Baik</option>
+        <option value="31">31. Asministrasi Pendidikan (S2) Akreditasi Baik</option>
+        <option value="32">32. Pendidikan Dasar (S2)</option>
+        <option value="33">33. Pendidikan Guru Sekolah Dasar</option>
+        <option value="34">34. Pendidikan Matematika</option>
+        <option value="35">35. Pendidikan Fisika</option>
+        <option value="36">36. Pendidikan Bahasa Inggris</option>
+        <option value="37">37. Pendidikan Biologi</option>
+    </select>
+</div>
+
+                <div class="mb-3">
+                  <p class="fw-bold text-light mt-2 mb-2">Pilihan 1</p>
+                  <select class="form-select" required aria-label="Pilihan">
+                    <option value="">Pilih Fakultas</option>
+                    <option value="1">1. Fakultas Pertanian (FP)</option>
+                    <option value="2">2. Fakultas Keguruan dan Ilmu Pendidikan (FKIP)</option>
+                    <option value="3">3. Fakultas Teknik (FT)</option>
+                    <option value="4">4. Fakultas Ilmu Sosial dan Ilmu Politik (FISIP)</option>
+                    <option value="5">5. Fakultas Ekonomi (FE)</option>
+                    <option value="6">6. Fakultas Ilmu Komputer (FIKOM)</option>
+                    <option value="7">7. Fakultas Kesehatan (FK)</option>
+                    <option value="8">8. Pascasarjana</option>
+                   <option value="9">9. Pendidikan Profesi Guru (Profesi) Akreditasi B</option>
+                    </select>
+                  </select>
+
+                  <div class="mb-3">
+                    <p class="fw-bold text-light mt-2 mb-2">Pilihan 2</p>
+                    <select class="form-select" required aria-label="Pilihan">
+                      <option value="">Pilihan Jurusan</option>
+        <option value="1">1. Agroteknologi (SI) Akreditasi B (FP)</option>
+        <option value="2">2. Peternakan (SI) Akreditasi B (FP)</option>
+        <option value="3">3. Agribisnis (SI) Akreditasi B (FP)</option>
+        <option value="4">4. Akuakultur (SI) Akreditasi B (FP)</option>
+        <option value="5">5. Kehutanan (SI) Akreditasi B (FP)</option>
+        <option value="6">6. Teknologi Industri Pertanian (SI) Akreditasi B (FP)</option>
+        <option value="7">7. Pendidikan Matematika (SI) Akreditasi B (FKIP)</option>
+        <option value="8">8. Pendidikan Biologi (SI) Akreditasi B (FKIP)</option>
+        <option value="9">9. Pendidikan Fisika (SI) Akreditasi B (FKIP)</option>
+        <option value="10">10. pendidikan Bhs. Indonesia (SI) Akreditasi B (FKIP)</option>
+        <option value="11">11. Pendidikan Ekonomi (SI) Akreditasi B (FKIP)</option>
+        <option value="12">12. Pendidikan Geografi (SI) Akreditasi Baik Sekali (FKIP)</option>
+        <option value="13">13. pendidikan Bhs. Inggris (SI) Akreditasi B (FKIP)</option>
+        <option value="14">14. PGSD (SI) Akreditasi A (FKIP)</option>
+        <option value="15">15. PG PAUD (SI) Akreditasi Baik Sekali (FKIP)</option>
+        <option value="16">16. Teknik Sipil (SI) Akreditasi B (FT)</option>
+        <option value="17">17. Arsitektur (SI) Akreditasi Baik (FT)</option>
+        <option value="18">18. Ilmu Lingkungan (SI) Akreditasi Baik (FT)</option>
+        <option value="19">19. Administrasi Bisnis (SI) Akreditasi B (FISIP)</option>
+        <option value="20">20. Administrasi Publik (SI) Akreditasi B (FISIP)</option>
+        <option value="21">21. Ilmu Hubungan Internasional (SI) Akreditasi B (FISIP)</option>
+        <option value="22">22. Ekonomi Pembangunan (SI) Akreditasi B (FE)</option>
+        <option value="23">23. Manajemen Ritel (SI) Akreditasi Baik (FE)</option>
+        <option value="24">24. Informatika (SI) Akreditasi B (FIKOM)</option>
+        <option value="25">25. Informatika Medis (SI) Akreditasi Baik (FIKOM)</option>
+        <option value="26">26. Kebidanan (SI) Akreditasi Baik (FK) </option>
+        <option value="27">27. Pendidikan Profesi Bidan (Profesi) Akreditasi Baik (FK)</option>
+        <option value="28">28. Kebidanan (DIII) Akreditasi B (FK)</option>
+        <option value="29">29. Pengelolaan Sumberdaya Alam dan Lingkungan (S2) Akreditasi Baik </option>
+        <option value="30">30. Pendidikan Ilmu Pengetahuan Sosial (S2) Akreditasi Baik</option>
+        <option value="31">31. Asministrasi Pendidikan (S2) Akreditasi Baik</option>
+        <option value="32">32. Pendidikan Dasar (S2)</option>
+        <option value="33">33. Pendidikan Guru Sekolah Dasar</option>
+        <option value="34">34. Pendidikan Matematika</option>
+        <option value="35">35. Pendidikan Fisika</option>
+        <option value="36">36. Pendidikan Bahasa Inggris</option>
+        <option value="37">37. Pendidikan Biologi</option>
+                       
+                    </select>
+                  <div class="invalid-feedback">Example invalid select feedback</div>
+              </div>
+              
+                <div id="emailHelp" class="form-text text-light"> * Pendaftaran Mahasiswa Mengikuti Mekanisme Kementerian Pendidikan !              
+                <div class="invalid-feedback">Example invalid select feedback</div>
+              </div>
+
+              <p class=" fw-bold text-light mt-2 mb-2">Kelas</p>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Reguler</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Lanjutan</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Pindahan</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Non Reguler</label>
+              </div>
+<!-- 7 bahan  -->
+              <p class="lead fw-bold text-light mt-2 mb-2">7. Bahan yang harus dilampirkan</p>
+              <div class=" col-12">
+                    <div class="col mb-3">
+                        <label for="ijazah" class="form-label"> * Fotokopi Ijazah (Surat Keterangan Lulus dari Kepala Sekolah) dan Daftar Nilai/SKHU yang telah dilegalisir</label>
+                        <input type="file" class="form-control" id="ijazah" name="ijazah" multiple>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pasfoto" class="form-label">Pasfoto terbaru ukuran 3 x 4 cm</label>
+                        <input type="file" class="form-control" id="pasfoto" name="pasfoto" multiple>
+                    </div>
+                    <div class="mb-3">
+                        <label for="transkrip" class="form-label">Transkrip nilai yang telah dilegalisir</label>
+                        <input type="file" class="form-control" id="transkrip" name="transkrip" multiple>
+                    </div>
+                    <div class="mb-3">
+                        <label for="kk" class="form-label">Fotokopi Kartu Keluarga Calon Mahasiswa</label>
+                        <input type="file" class="form-control" id="kk" name="kk">
+                    </div>
+                    <div class="mb-3">
+                        <label for="ktp" class="form-label">Fotokopi KTP calon mahasiswa, ayah, dan ibu</label>
+                        <input type="file" class="form-control" id="ktp" name="ktp" multiple>
+                    </div>
+                    <div class="mb-3">
+                        <label for="kip" class="form-label">Fotokopi kartu KIP (bagi jalur beasiswa KIP)</label>
+                        <input type="file" class="form-control" id="kip" name="kip">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+            
+            </div>
+                   <!-- Keterangan -->
+<div class="mt-4">
+  <p class="fw-bold">Keterangan:</p>
+  <ol>
+    <li>Isilah formulir dengan lengkap dan jelas</li>
+    <li>Isilah kotak yang telah disediakan sesuai dengan nomor piliban menggunakan tanda V (centang)</li>
+    <li>Untuk point 7, maksimal program studi 2 (dua) pilihan</li>
+    <li>Jika ada hal yang kurang jelas dapat ditanyakan langsung pada panitia SPMB / Contact Person:</li>
+  </ol>
+  <ul class="list-unstyled">
+    <li>
+      <span>Alfi Syahrin:</span>
+      <a href="https://wa.me/6285262555712" target="_blank" class="text-decoration-none"><i class='bx bxl-whatsapp'> 085262555712</i></a>
+    </li>
+    <li>
+      <span>Sharfina:</span>
+      <a href="https://wa.me/6282273484506" target="_blank" class="text-decoration-none"><i class='bx bxl-whatsapp'> 082273484506</i></a>
+    </li>
+    <li>
+      <span>Fina:</span>
+      <a href="https://wa.me/6282217567074" target="_blank" class="text-decoration-none"><i class='bx bxl-whatsapp'> 082217567074</i></a>
+    </li>
+    <li>
+      <span>Afriana:</span>
+      <a href="https://wa.me/6281360222568" target="_blank" class="text-decoration-none"><i class='bx bxl-whatsapp'> 081360222568</i></a>
+    </li>
+    <li>
+      <span>Liza:</span>
+      <a href="https://wa.me/62895400652121" target="_blank" class="text-decoration-none"><i class='bx bxl-whatsapp'> 0895400652121</i></a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+                
+    
+    <!-- Footer -->
+<section class="footer shadowm mt-5" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <p class="mb-0 text-light">Universitas<a href="#" class="fw-bold text-light">  Almuslim </a></p>
+                <div class="icons mt-2">
+                    <a href="http://www.umuslim.ac.id" class="text-light"><i class='bx bx-globe'></i> www.umuslim.ac.id</a><br>
+                    <a href="https://www.youtube.com/universitas almuslim" class="text-light"><i class='bx bxl-youtube'></i> universitas almuslim</a><br>
+                    <a href="https://www.instagram.com/universitas_almuslim" class="text-light"><i class='bx bxl-instagram'></i> universitas_almuslim</a><br>
+                    <a href="https://twitter.com/humasumuslim" class="text-light"><i class='bx bxl-twitter'></i> humasumuslim</a><br>
+                    <a href="https://www.facebook.com/UniversitasAlmuslim" class="text-light"><i class='bx bxl-facebook-circle'></i> UniversitasAlmuslim</a><br>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <h4 class="text-light">Fakultas/Diploma</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light">Pasca Sarjana Umuslim</a></li>
+                    <li><a href="#" class="text-light">PPG UMUSLIM</a></li>
+                    <li><a href="#" class="text-light">Fakultas Pertanian (FP)</a></li>
+                    <li><a href="#" class="text-light">Fakultas Ilmu Komputer (FIKOM)</a></li>
+                    <li><a href="#" class="text-light">Fakultas Ekonomi (FE)</a></li>
+                    <li><a href="#" class="text-light">Fakultas Ilmu Sosial dan Politik (FISIP)</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h4 class="text-light">Badan/Lembaga</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light">Badan penjamin Mutu Internal</a></li>
+                    <li><a href="#" class="text-light">Lembaga Penelitian dan Pengabdian Masyarakat</a></li>
+                    <li><a href="#" class="text-light">Lembaga Pembinaan dan Pengembangan Studi Islam (LP2SI)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //Footer -->
+<script src="/js/file.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
